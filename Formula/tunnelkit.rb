@@ -1,28 +1,28 @@
 class Tunnelkit < Formula
   desc "Expose a local port with a public HTTPS address"
   homepage "https://app.tunnelkit.app"
-  version "0.1.1"
+  version "0.1.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://downloads.tunnelkit.app/releases/v0.1.1/tunnelkit-darwin-arm64.tar.gz"
-      sha256 "bbaa14bceb7938094ebd5df211f6ab10ad03cfdab0e7c62b61b2a9732dba4687"
+      url "https://downloads.tunnelkit.app/releases/v0.1.2/tunnelkit-darwin-arm64.tar.gz"
+      sha256 "2b3464bcb9ae13a22a975d1325a6bd2f796dc3da01016d9ab69ee53bac3b564f"
     end
     on_intel do
-      url "https://downloads.tunnelkit.app/releases/v0.1.1/tunnelkit-darwin-amd64.tar.gz"
-      sha256 "d40111fac3c56fe2e601452212a77f9012fe92f626fd8687fb0af4c20609b35f"
+      url "https://downloads.tunnelkit.app/releases/v0.1.2/tunnelkit-darwin-amd64.tar.gz"
+      sha256 "4dfe8521939b489ee59e94bfcc57fb816f9952c0d1fd06c15a066cb465f87ad8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.tunnelkit.app/releases/v0.1.1/tunnelkit-linux-arm64.tar.gz"
-      sha256 "bd31b12bf64ea96c83c4b8d573606bbe28b692b8f92ce0cb58e07b4cbc564980"
+      url "https://downloads.tunnelkit.app/releases/v0.1.2/tunnelkit-linux-arm64.tar.gz"
+      sha256 "2cf9b2c732620449552d024f68213b61436441784003ece92da25e8764dba721"
     end
     on_intel do
-      url "https://downloads.tunnelkit.app/releases/v0.1.1/tunnelkit-linux-amd64.tar.gz"
-      sha256 "c3ebd31f5b13e726bde53bcc46628e9a81ac7a76fc8e8a1585f7b19d43207eb1"
+      url "https://downloads.tunnelkit.app/releases/v0.1.2/tunnelkit-linux-amd64.tar.gz"
+      sha256 "85ab6f27ae2af157a3b077871c2921e2d760be3be0189bd882471c84362c45a2"
     end
   end
 
